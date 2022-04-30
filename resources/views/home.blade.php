@@ -11,6 +11,11 @@
                 <h4> Ваш паспорт: {{ auth()->user()->Passport }}</h4>
 
                 <h4> Ваша почта: {{ auth()->user()->email }}</h4>
+                <div class="ProfileRedactor">
+                    <div class="ProfileRedactor">
+                        <button type="submit" class="btn btn-primary">
+                            {{ __('Изменить данные пользователя') }}
+                        </button>
                 </div>
             </div>
         </div>
