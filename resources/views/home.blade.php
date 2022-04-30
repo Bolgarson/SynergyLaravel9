@@ -14,7 +14,7 @@
                 <div class="ProfileRedactor">
                     <div class="ProfileRedactor">
                         <button type="submit" class="btn btn-primary">
-                            {{ __('Изменить данные пользователя') }}
+                            {{ __('Изменить данные') }}
                         </button>
                 </div>
             </div>
